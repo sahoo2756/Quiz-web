@@ -184,6 +184,7 @@ body{
     #next-question{
         font-size:12px;       
         padding:1.5px 10px;
+        transition: all 0;;
     }
 }
 
