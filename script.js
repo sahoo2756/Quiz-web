@@ -36,6 +36,7 @@ next_btn.onclick= ()=> {
     if(submit_ans == false){
         alert("Please Submit Your Answer");
     } else {
+        submit_ans = false;
         pointer_disabled(false);
         // this method for disabled red ans green back-ground color of answer
         remove_correct_wrong_class_from_option_box();
